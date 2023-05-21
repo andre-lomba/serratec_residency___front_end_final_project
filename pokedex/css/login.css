@@ -1,0 +1,95 @@
+#form_header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+#form_header img {
+    width: 230px;
+}
+
+#btn-procurar{
+    cursor: pointer;
+}
+
+
+
+#inputs {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.btn-primary {
+    width: 100%;
+    background-image: var(--gradient);
+    border: none;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+
+.input-box {
+    width: 100%;
+}
+
+.input-box label {
+    font-size: 0.9rem;
+    margin: 0;
+    width: 100%;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 2px;
+    border-bottom: 1px var(--blue-line-login);
+    width: 100%;
+}
+
+.input-field i {
+    font-size: 1rem;
+    color: var(--login-symbols);
+}
+
+.input-field input {
+    border: none;
+    width: 180px;
+    background-color: transparent;
+    font-size: 12px;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+.cadastrar {
+    width: 100%;
+}
+
+.btn_cadastrar {
+    width: 100%;
+}
+
+h6 {
+    font-size: 0.7rem;
+    display: inline;
+    justify-content: center;
+}
